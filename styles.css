@@ -17,12 +17,13 @@
 body {
     background-color: var(--bgColor);
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
-    position: absolute;
-    left: 850px;
-    top: 240px;
     background-color: var(--cardColor);
     height: 420px;
     width: 270px;
@@ -58,12 +59,4 @@ body {
 }
 
 @media (max-width: 800px) {
-    .container {
-        left: 60px;
-        top: 150px;
-    }
-
-    .footer {
-        left: 15px;
-    }
 }
