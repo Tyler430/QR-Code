@@ -55,8 +55,11 @@ body {
 .footer {
     position: absolute;
     bottom: 35px;
-    left: 42%;
+    left: 37%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 375px) {
+    .footer {
+        left: 1%;
+    }
 }
