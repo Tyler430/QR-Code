@@ -5,6 +5,7 @@
     --cardColor: hsl(0, 0%, 100%);
     --cardTitleText: hsl(218, 44%, 22%);
     --cardBodyText: hsl(220, 15%, 55%);
+    --QRCodeBackgroundColor: hsl(216, 95%, 58%);
 }
 
 
@@ -28,7 +29,7 @@ body {
     height: 420px;
     width: 270px;
     border-radius: 10px;
-    box-shadow: 1px 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
 }
 
 .qrCode {
@@ -53,14 +54,24 @@ body {
     color: var(--cardBodyText);
 }
 
-.footer {
+footer a {
+    color: var(--QRCodeBackgroundColor);
+}
+
+footer .footer {
     position: absolute;
     bottom: 35px;
     left: 37%;
 }
 
 @media (max-width: 375px) {
-    .footer {
-        left: 1%;
+    footer .footer {
+        left: 3px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .footer{
+        left: 41%;
     }
 }
