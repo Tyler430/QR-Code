@@ -16,11 +16,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-Compatability: 
-- 1920px
-- 1440px
-- 375px
-
 ![](https://user-images.githubusercontent.com/40303747/205476010-719b52b5-28a1-4c11-9814-7441b0ee5553.png)
 
 ### Links
